@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <LInk rel="stylesheet" href="./form.css"></LInk>
     <title>FORM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-   <form action="">
-    <h2 class="pswd">SIGN UP FORM</h2>
+   <form action="" id="form-box" method="get">
+    <h2 class="pswd">
+        <i class="fa fa-user-plus" aria-hidden="true"></i>
+        SIGN UP FORM</h2>
 
     <label for=""class="pswd">FIRST NAME</label>
     <input type="text" name="" id="">
@@ -17,13 +20,43 @@
     <input type="text" name="" id="">
     <label for=""class="pswd">ENTER YOUR EMAIL</label>
     <input type="email" name="" id="" required>
+
+    <fieldset>
+        <legend>GENDER</legend>
+        <input type="radio" name="gender" class="input-radio" value="MALE">MALE
+        <input type="radio" name="gender" class="input-radio" value="FEMALE">FEMALE
+        <input type="radio" name="gender" class="input-radio" value="OTHERS">OTHERS
+    </fieldset>
+    
+    <fieldset>
+        <legend>SELECT YOUR COURSES</legend>
+        <input type="checkbox" name="COURSES" class="input-radio">FRONTEND
+        <input type="chcekbox" name="COURSES" class="input-radio">BACKEND
+        <input type="checkbox" name="COURSES" class="input-radio">DATA ANALYTIC
+        <input type="checkbox" name="COURSES" class="input-radio">UI/UX
+    </fieldset>
+
+    <select name="schools" id="">
+        <option value="">choose your school</option>
+        <option value="rsust">RSUST</option>
+        <option value="uniport">UNIPORT</option>
+        <option value="absu">ABSU</option>
+        <option value="unn">UNN</option>
+    </select>
+
+    <input type="date" name="" id="">
+   <input type="datetime-local" name="" id="">
+   <input type="file" name="" id="">
+   <input type="range" name="" id="">
+    
     <label for="" class="pswd">PASSWORD</label>
     <input type="password" name="" id="" required placeholder="Enter your password">
     <br>
     <input type="button" value="REGISTER">
     <button>
         SIGNUP
-        <img src="../img-2.jpg" alt="" width="20px" height="10px">
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+        <!-- <img src="../img-2.jpg" alt="" width="20px" height="10px"> -->
     </button>
     
 

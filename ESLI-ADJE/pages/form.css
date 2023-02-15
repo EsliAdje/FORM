@@ -11,6 +11,8 @@ form{
     border: 1px solid red;
     width: 500px;
     padding: 3px 15px 20px;
+    margin: 20px auto;
+    box-shadow: 3px 25px 30px darkslategray;
 }
 h2{
     text-align: center;
@@ -39,3 +41,4 @@ button{
     color: red;
     font-size: 17px;
 }
+
